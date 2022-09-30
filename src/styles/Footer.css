@@ -1,0 +1,14 @@
+footer {
+    margin-top: 40px;
+    height: 90px;
+    background: #e7e5e4;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footerText {
+    font-size: 18px;
+}

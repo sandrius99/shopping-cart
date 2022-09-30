@@ -1,0 +1,59 @@
+{
+  "phones": [
+    {
+        "name": "Apple iPhone 11 64GB",
+        "image": "https://www.varle.lt/static/uploads/products/886/tel/tel-iphone-11-mhdc3et-a-4-64gb-ds-baltas.jpg",
+        "price": 529,
+        "id": 1
+    },
+    {
+        "name": "Apple iPhone 12 64GB",
+        "image": "https://www.varle.lt/static/uploads/products/26/app/apple-iphone-12-64gb-melynas-blue.jpeg",
+        "price": 789,
+        "id": 2
+    },
+    {
+        "name": "Samsung Galaxy Flip 4 128GB",
+        "image": "https://www.varle.lt/static/uploads/products/2/sam/samsung-galaxy-z-flip4-sm-f721b-17-cm-67_NXOlCQ4.jpeg",
+        "price": 1035,
+        "id": 3
+    },
+    {
+        "name": "Apple iPhone 14 128GB",
+        "image": "https://www.varle.lt/static/uploads/products/26/app/apple-iphone-14-128gb-midnight.jpg",
+        "price": 1029,
+        "id": 4
+    },
+    {
+        "name": "Samsung Galaxy Fold 4 512GB",
+        "image": "https://www.varle.lt/static/uploads/products/2/sam/samsung-galaxy-z-fold4-sm-f936b-193-cm_lZlGQT4.jpeg",
+        "price": 1939,
+        "id": 5
+    },
+    {
+        "name": "Xiaomi Redmi Note 11 4/128GB",
+        "image": "https://www.varle.lt/static/uploads/products/134/tel/tel-xiaomi-redmi-note-11-4-128gb-ds-melyna.jpg",
+        "price": 204,
+        "id": 6
+    },
+    {
+        "name": "Xiaomi POCO M4 Pro 256GB",
+        "image": "https://www.varle.lt/static/uploads/products/26/poc/poco-m4-pro-4g-8gb256gb-geltonas-geltona.png",
+        "price": 249,
+        "id": 7
+    },
+    {
+        "name": "HUAWEI P50 PRO 256GB",
+        "image": "https://www.varle.lt/static/uploads/products/12/tel/telefonas-p50-pro-8-256gb-51096vta-golden.Jpeg",
+        "price": 906,
+        "id": 8
+    },
+    {
+        "name": "OnePlus 10 Pro 256GB",
+        "image": "https://www.varle.lt/static/uploads/products/4/one/oneplus-10-pro-ne2213-volcanic-juodas-67.png",
+        "price": 993,
+        "id": 9
+    }
+    
+   ]
+}
