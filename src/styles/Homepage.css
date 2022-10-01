@@ -67,4 +67,9 @@ main {
   border: 2px solid #4285f4;
 }
 
-
+@media(max-width: 600px) {
+  #pickPhoneBtn{
+    position: absolute;
+    left: 25%;
+  }
+}

@@ -28,3 +28,46 @@
 .productTitle {
     font-size: 24px;
 }
+
+/* media queries */
+@media(max-width: 900px) {
+    .productImg {
+        width: 450px;
+    }
+
+    .product{
+        padding-top: 50px;
+        height: 90vh;
+    }
+
+    .productInfo {
+        max-width: 500px;
+        margin-right: 10%;
+    }
+    
+}
+
+@media(max-width: 600px) {
+    .productImg {
+        width: 250px;
+        object-fit: contain;
+        max-width: 100%;
+        margin-left: 70px;
+        
+    }
+
+    .product{
+        padding-top: 120px;
+        height: 90vh;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .productInfo {
+        max-width: 200px;
+        margin-right: 20%;
+        font-size: 12px;
+        gap: 10px;
+        
+    }
+}

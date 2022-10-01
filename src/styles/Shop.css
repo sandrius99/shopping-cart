@@ -9,7 +9,7 @@
 
 .phoneImg {
     
-    
+    max-width: 100%;
     object-fit: contain;
     height: 250px;
 }
