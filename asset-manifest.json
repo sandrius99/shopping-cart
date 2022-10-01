@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.75ab49ae.css",
+    "main.js": "/shopping-cart/static/js/main.35f5dc00.js",
+    "static/media/phone_collection.jpg": "/shopping-cart/static/media/phone_collection.47b003ac050271e4837d.jpg",
+    "static/media/shopping-cart.png": "/shopping-cart/static/media/shopping-cart.96c73cb49987ccdf1154.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.75ab49ae.css.map": "/shopping-cart/static/css/main.75ab49ae.css.map",
+    "main.35f5dc00.js.map": "/shopping-cart/static/js/main.35f5dc00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75ab49ae.css",
+    "static/js/main.35f5dc00.js"
+  ]
+}
