@@ -5,7 +5,7 @@ import '../styles/Header.css'
 export const Header = () => {
   return (
     <header>
-        <span className='headerText'>Pick a Phone</span> 
+        <Link to='/'><span className='headerText'>Pick a Phone</span> </Link>
         <nav>
             <Link to='/'>Home</Link>
             <Link to='/shop'>Shop</Link>

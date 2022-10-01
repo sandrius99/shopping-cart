@@ -13,6 +13,7 @@ function App() {
   const [cart, setCart] = useState([]);
 
   function addProductToCart(productId, quantity = -1){
+    
     const product = phones.filter(product => product.id == productId)[0];
     
     if(cart.find(item => item.id === product.id)) {

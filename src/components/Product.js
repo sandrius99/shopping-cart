@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from "react";
+import {  useEffect } from "react";
 import {  useParams } from 'react-router-dom';
 import '../styles/Product.css'
 
@@ -10,13 +10,21 @@ export const Product = ({phones, addProductToCart}) => {
     useEffect(() => {
         const addToCartBtn = document.getElementById('addToCartBtn2');
         const productAmount = document.querySelector('.productAmount');
-        addToCartBtn.addEventListener('click', () => {
+
+        const addProduct = () => {
             const quantity = parseInt(productAmount.value);
             if(typeof(quantity) == 'number' && quantity > 0 ){
+                
                 addProductToCart(product.id, quantity);
             }
-        })
-    },[])
+        }
+        addToCartBtn.addEventListener('click', addProduct);
+
+        return () => {
+            addToCartBtn.removeEventListener('click', addProduct);
+        }
+
+    })
     
   return (
     <div className="product">
